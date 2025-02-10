@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Fixed.cpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: christian <christian@student.42.fr>        +#+  +:+       +#+        */
+/*   By: candrese <candrese@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/07 22:50:21 by christian         #+#    #+#             */
-/*   Updated: 2025/02/08 17:20:46 by christian        ###   ########.fr       */
+/*   Updated: 2025/02/10 15:51:26 by candrese         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@
 // that sets the raw value of the fixed-point number.
 
 #include "Fixed.hpp"
-#include <iostream>
 
 Fixed::Fixed() : _fixedPointValue(0)
 {
