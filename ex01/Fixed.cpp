@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   Fixed.cpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: christian <christian@student.42.fr>        +#+  +:+       +#+        */
+/*   By: candrese <candrese@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/07 22:50:36 by christian         #+#    #+#             */
-/*   Updated: 2025/02/08 18:03:26 by christian        ###   ########.fr       */
+/*   Updated: 2025/02/10 18:17:41 by candrese         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Fixed.hpp"
-#include <cmath>
 
 Fixed::Fixed() : _fixedPointValue(0) {
 	std::cout << "Default constructor called" << std::endl;
@@ -59,7 +58,7 @@ int Fixed::toInt(void) const {
 	return this->_fixedPointValue >> _fractionalBits;
 }
 
-std::ostream &operator<<(std::ostream &out, const Fixed &fixed) {
+std::ostream &operator<<(std::ostream &out, const Fixed &fixed){
 	out << fixed.toFloat();
 	return out;
 }
