@@ -6,7 +6,7 @@
 /*   By: candrese <candrese@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/07 22:50:41 by christian         #+#    #+#             */
-/*   Updated: 2025/02/10 21:00:28 by candrese         ###   ########.fr       */
+/*   Updated: 2025/02/10 22:48:47 by candrese         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,15 +88,18 @@ return 0;
 // 	// Test 3: Arithmetic Operators
 // 	printSeparator("Arithmetic Operators");
 // 	{
-// 		Fixed a(5.5f);
-// 		Fixed b(2.0f);
+// 		Fixed a(1.0f);
+// 		Fixed b(3.0f);
+// 		Fixed c = a / b;
 
 // 		std::cout << "a = " << a << ", b = " << b << std::endl;
 // 		std::cout << "a + b: " << (a + b) << std::endl;
 // 		std::cout << "a - b: " << (a - b) << std::endl;
 // 		std::cout << "a * b: " << (a * b) << std::endl;
 // 		std::cout << "a / b: " << (a / b) << std::endl;
-		
+// 		std::cout << "c = a / b = " << c << std::endl;
+// 		c = b * c;
+// 		std::cout << "b * c: " << (c) << std::endl;
 // 	}
 
 // 	// Test 4: Increment/Decrement Operators

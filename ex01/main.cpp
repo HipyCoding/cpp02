@@ -6,7 +6,7 @@
 /*   By: candrese <candrese@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/07 22:50:41 by christian         #+#    #+#             */
-/*   Updated: 2025/02/10 20:28:36 by candrese         ###   ########.fr       */
+/*   Updated: 2025/02/10 22:59:02 by candrese         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,10 +74,10 @@ return 0;
 // 	return 0;
 // }
 
+// explanation for values being slightly off:
 // for the example of 3.14:
-// in binary it is 00000011.00100100
-// shifted << 8bits makes it 00000011 00100100.00000000
+// shifted << 8bits makes it 0000001100100010
 // which is the same as multiplying by 256 (2 to the power of 8)
-// which is 804 in decimal (our number in rawbits)
+// which is 803.84, roundf makes it 804
 // to shift it back we divide by 256 again
 // and get 3.140625, which is a different number due to rounding margins
