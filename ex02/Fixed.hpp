@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   Fixed.hpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: christian <christian@student.42.fr>        +#+  +:+       +#+        */
+/*   By: candrese <candrese@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/07 22:50:38 by christian         #+#    #+#             */
-/*   Updated: 2025/02/10 12:12:44 by christian        ###   ########.fr       */
+/*   Updated: 2025/02/10 20:22:01 by candrese         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FIXED_HPP
-#define FIXED_HPP
+# define FIXED_HPP
 
 #include <cmath>
 #include <iostream>
