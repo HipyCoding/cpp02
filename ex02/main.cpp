@@ -6,7 +6,7 @@
 /*   By: candrese <candrese@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/07 22:50:41 by christian         #+#    #+#             */
-/*   Updated: 2025/02/10 20:25:43 by candrese         ###   ########.fr       */
+/*   Updated: 2025/02/10 21:00:28 by candrese         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ return 0;
 // 10.1016
 // 10.1016
 
-// more thorough main function for testing
+// ----more thorough main function for testing----
 
 // void printSeparator(const std::string& testName) {
 // 	std::cout << "\n--- " << testName << " ---\n";
@@ -95,29 +95,17 @@ return 0;
 // 		std::cout << "a + b: " << (a + b) << std::endl;
 // 		std::cout << "a - b: " << (a - b) << std::endl;
 // 		std::cout << "a * b: " << (a * b) << std::endl;
+// 		std::cout << "a / b: " << (a / b) << std::endl;
 		
-// 		// Be careful with division by zero
-// 		if (b.getRawBits() != 0) {
-// 			std::cout << "a / b: " << (a / b) << std::endl;
-// 		}
 // 	}
 
 // 	// Test 4: Increment/Decrement Operators
-// 	printSeparator("Increment/Decrement Operators");
+// 	printSeparator("Decrement Operators");
 // 	{
 // 		Fixed a(5.5f);
 		
-// 		std::cout << "Initial a: " << a << std::endl;
-		
-// 		// Pre-increment
-// 		std::cout << "++a: " << ++a << std::endl;
-// 		std::cout << "After pre-increment, a: " << a << std::endl;
-		
-// 		// Post-increment
-// 		std::cout << "a++: " << a++ << std::endl;
-// 		std::cout << "After post-increment, a: " << a << std::endl;
-		
-// 		// Similar tests for decrement
+// 		// Tests for decrement
+// 		std::cout << "a: " << a << std::endl;
 // 		std::cout << "--a: " << --a << std::endl;
 // 		std::cout << "a--: " << a-- << std::endl;
 // 		std::cout << "Final value of a: " << a << std::endl;

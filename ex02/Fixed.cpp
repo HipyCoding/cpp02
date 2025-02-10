@@ -6,7 +6,7 @@
 /*   By: candrese <candrese@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/07 22:50:36 by christian         #+#    #+#             */
-/*   Updated: 2025/02/10 19:17:21 by candrese         ###   ########.fr       */
+/*   Updated: 2025/02/10 20:54:40 by candrese         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -131,7 +131,10 @@ Fixed Fixed::operator*(const Fixed &copy) const
 Fixed Fixed::operator/(const Fixed &copy) const
 {
 	if (copy._fixedPointValue == 0)
-		std::cerr << "Division by zero is not allowed." << std::endl;
+		{
+		std::cerr << "Division by zero is not allowed. Will just return 0" << std::endl;
+		return 0;
+		}
 	Fixed newValue;
 	newValue._fixedPointValue = (this->_fixedPointValue << _fractionalBits) / copy._fixedPointValue;
 	return newValue;
